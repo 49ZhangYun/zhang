@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+input,button{
+    border: 0;
+    outline: 0;
+}
+/* 设置字体大小 */
+html,body{
+    font-size: 10px;
+}
+@media screen and (win-width:375px){
+    html,body{
+        font-size: 10px !important;
+    }
+}
+/* 字体大小的计算方法  10*414/375 */
+@media screen and (win-width:414px){
+    html,body{
+        font-size: 11.04px !important;
+    }
+}
+/* 字体大小的计算方法  10*768/375 */
+@media screen and (win-width:768px){
+    html,body{
+        font-size: 20.48px !important;
+    }
+}
